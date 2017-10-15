@@ -1,4 +1,4 @@
-module object{
+module objects{
     export class Scene extends createjs.Container{
         //PRIVATE INSTACE VARIABLES
 
@@ -8,7 +8,7 @@ module object{
         constructor(){
             super();
 
-            this.Start();
+            
         }
         /**
          * Initialize Components here

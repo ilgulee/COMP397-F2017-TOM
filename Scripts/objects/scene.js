@@ -8,17 +8,15 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var object;
-(function (object) {
+var objects;
+(function (objects) {
     var Scene = /** @class */ (function (_super) {
         __extends(Scene, _super);
         //PRIVATE INSTACE VARIABLES
         //PUBLIC PROPERTIES
         //CONSTRUCTORS
         function Scene() {
-            var _this = _super.call(this) || this;
-            _this.Start();
-            return _this;
+            return _super.call(this) || this;
         }
         /**
          * Initialize Components here
@@ -38,6 +36,6 @@ var object;
         };
         return Scene;
     }(createjs.Container));
-    object.Scene = Scene;
-})(object || (object = {}));
+    objects.Scene = Scene;
+})(objects || (objects = {}));
 //# sourceMappingURL=scene.js.map
